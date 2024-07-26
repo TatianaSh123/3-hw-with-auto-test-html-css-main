@@ -8,7 +8,7 @@
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1140px;
     /* 📍 Максимальная ширина для контейнера */
 }
 
@@ -73,8 +73,7 @@ header span {
 }
 
 .about-section .wrapper {
-    gap: 20px;
-
+    gap: 60px;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -154,7 +153,7 @@ border: 1px solid rgb(41, 101, 241);
     font-size: 16px;
     padding-left: 20px;
     width: 100%;
-    min-width: 720px;
+    min-width: 570px;
 }
 
 .label {
